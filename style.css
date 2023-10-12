@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&family=Roboto&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-vector/padlock-security-cyber-digital-concept-abstract-technology-background-protect-system-innovation-vector-illustration_42421-1280.jpg");
+    background-size: 80% 25%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.portpic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.edit{
+    width: 10%;
+    height: 30px;
+    border: 0px;
+    border-radius:10px ;
+    align-self: flex-end;
+}
+
+.about{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin:0 10% 0 10%;
+}
+.flex{
+    display: flex;
+}
+.pic-edit{
+    padding: 0 10%;
+}
+.none{
+    display: none;
+}
+.spc-btwn{
+    justify-content: space-between;
+}
+.profile{
+    padding:15% 2% 0 6%;
+}
+.name-about{
+    padding: 1% 10%;
+    line-height: 35px;
+}
+.col-head{
+    padding: 2%;
+    justify-content: space-around;
+}
+.col1,.col2{
+    padding: 2% 5% 5% 10%  ;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.icons{
+    padding: 1% 0 5px  ;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.i1:hover,.i2:hover,.i3:hover,.i4:hover{ 
+    background-color: rgb(0, 0, 0);
+    .none{
+    display: flex;
+    position: relative;
+    }
+}
+.foot{
+    height: 50px;
+}
+.copyright code{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
